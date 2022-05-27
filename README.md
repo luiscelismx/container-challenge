@@ -4,7 +4,7 @@ Solution overview
 
 The reference solution uses a container-based nodeJS application with a DynamoDB table as the data store. Along with Amazon ECS, the solution uses a combination of Amazon Elastic Container Registry (Amazon ECR) for container registry and Docker to create the application image, AWS Virtual Private Cloud (VPC) manages the network setup and Amazon Application Load Balancer (ALB) routes external traffic to the Amazon ECS service, and Amazon CloudWatch Logs to manage logs, monitoring and alerting. The factors described in the next section provide details on how the different parts of the reference solution achieve the best practices recommended by the methodology. The high-level architecture of the reference solution is shown below.
 
-![alt text](https://github.com/luiscelismx/incode-sre-challenge/blob/master/Architecture-Diagram.jpeg?raw=true)
+![Diagram](https://github.com/luiscelismx/incode-sre-challenge/blob/master/Architecture-Diagram.jpeg?raw=true)
 
 
 ### Sections
