@@ -33,6 +33,8 @@ The application has four endpoints:
 
 The application contains a simple debbuging capability (request ip, request method, and request path) to present some information in AWS Cloudwatch.
 
+URL: http://incode-load-balancer-2141945483.us-west-1.elb.amazonaws.com/
+
 
 #### Docker
 To assamble the application image an alpine with nodeJS image were used (node:16-alpine3.14), and uploaded to a private Amazon ECR repository.
