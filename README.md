@@ -1,4 +1,4 @@
-## Incode SRE Challenge
+## Container Challenge
 
 Solution overview
 
@@ -6,7 +6,7 @@ The reference solution uses a container-based nodeJS application with a DynamoDB
 
 The high-level architecture of the reference solution is shown below.
 
-![Diagram](https://github.com/luiscelismx/incode-sre-challenge/blob/main/Architecture-Diagram.jpeg?raw=true)
+![Diagram](https://github.com/luiscelismx/container-challenge/blob/main/Architecture-Diagram.jpeg?raw=true)
 
 
 ### Sections
@@ -35,7 +35,7 @@ The application has four endpoints:
 
 The application contains a simple debbuging capability (request ip, request method, and request path) to present some information in AWS Cloudwatch.
 
-URL: http://incode-load-balancer-2141945483.us-west-1.elb.amazonaws.com/
+URL: http://xxx-load-balancer-2141945483.us-west-1.elb.amazonaws.com/
 
 
 #### Docker
